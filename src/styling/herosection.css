@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+.hero_section_container{
+    /* height: 70vh; */
+    /* background-color: rgba(250, 235, 215, 0.029); */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: "Outfit", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    fill: #9A9A9A;
+    color: #9A9A9A;
+    flex-direction: column;
+}
+
+.hero_section{
+    width: 70%;
+    /* background-color: rgba(255, 255, 255, 0.038); */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.profile_image{
+    display: inline-block;
+}
+
+.circular--square { 
+    border-radius: 50%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.intro_text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.intro_text img{
+    opacity: .6;
+}
+
+.main_text{
+   
+    width: 60%;
+    text-align: center;
+}
+
+.main_text h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+    background: -webkit-linear-gradient( #b6b5b5, #9a9a9a9b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button_section{
+    display: flex;
+    justify-content: center;
+}
+
+.download_button{
+    border: 1px solid rgba(255, 255, 255, 0.048);
+    padding: 18px 45px;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    color: #9A9A9A;
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+
+}
+
+.download_button:hover{
+    transform: scale(0.9);
+}
+
+
+
+.download_button img{
+    margin-left: 15px;
+    opacity: .6;
+    /* margin-bottom: 9000px; */
+}
+
+.drawer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #161616df;
+    z-index: 100;
+    width: 60%;
+    position: fixed; /* Changed to fixed */
+    top: 0; /* Added */
+    right: 0;
+    padding-top: 41px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.drawer-link{
+    display: flex;
+    width: 100%;
+    /* min-width: 200px; */
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 14px;
+    height: 50px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.084);
+    border-top: 1px solid rgba(255, 255, 255, 0.084);
+    box-sizing: border-box;
+    padding-left: 30px;
+    color: #9A9A9A;
+}
+
+
+
+@media (max-width: 870px) {
+
+    .main_text h2{
+        font-size: 33px;
+    }
+
+    .hero_section{
+        width: 100%;
+    }
+
+    .main_text{
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main_text h2{
+        font-size: 25px;
+    }
+
+    .download_button{
+        padding: 13px 15px;
+        font-size: 14px;
+    } 
+
+    .download_button img{
+        height: 15px;
+    }
+
+   
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+.techstack_container{
+    /* background-color: rgba(0, 0, 0, 0.65); */
+    height: 150px;
+    width: 100%;
+    color: #9A9A9A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    font-family: "Outfit", Sans-serif;
+    font-size: 20px;
+}
+
+.tech_icon{
+    margin-left: 30px;
+    font-size: 30px
+}

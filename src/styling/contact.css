@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+.contact_section {
+    width: 100%;
+    height: fit-content;
+    min-height: 200px;
+    background-color: #1a1a1a;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.138);
+    border-top: 1px solid rgba(129, 128, 128, 0.084);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: #9A9A9A;
+    font-family: "Outfit", Sans-serif;
+    font-size: 16px;
+}
+
+.contact_heading {
+    font-size: 18px;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient( #c3c3c3, #9a9a9a9b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact_line{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 60px;
+    font-size: 25px;
+    background: -webkit-linear-gradient( #c9c9c9, #9a9a9a9b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact_links_container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    flex-wrap: wrap;
+}
+
+.contact_link{
+    display: flex;
+    width: fit-content;
+    max-width: 300px;
+    /* background-color: white; */
+    height: 100px;
+    margin: 10px;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.contact_icon{
+    display: flex;
+    flex: .4;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    flex: .6;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+.contact_hyperlink{
+    font-weight: 200;
+}
+
+.copyright_text{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+
+    justify-content: flex-end;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+
+@media (max-width: 500px) {
+   .contact_icon{
+    font-size: 30px;
+   }
+
+   .contact_link{
+    padding: 10px;
+    max-height: 50px;
+    height: fit-content;
+   }
+
+   .contact_links_container{
+    padding: 0;
+    padding-left: 10px;
+    padding-top: 10px;
+   }
+   .contact_heading{
+    padding: 40px 20px;
+    padding-bottom: 0px;
+    font-size: 16px;
+   }
+
+   .contact_line{
+    padding: 10px 20px;
+    font-size: 20px;
+   }
+
+   .contact_details{
+    font-size: 14px;
+   }
+
+   .copyright_text{
+    font-size: 12px;
+    margin-top: 30px;
+   }
+
+}
+
