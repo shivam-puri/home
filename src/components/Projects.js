@@ -14,9 +14,10 @@ const Projects = () => {
             </div>
 
             <div className="projects" >
+             <a href="https://64859652bf187a7933276c50--fluffy-starlight-b4577f.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <div className="project">
                     <div className="project_info">
-                        <div className="project_title">Zillow (Real Estate)</div>
+                        <div className="project_title">UrbanEstate</div>
                         <div className="project_tech">
                         <i class="fa-brands fa-ethereum"></i> &nbsp;
                         <i class="fa-brands fa-react"></i>
@@ -26,6 +27,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+        </a>
                 <a href="https://vermillion-mermaid-44c887.netlify.app/" target="_blank" rel="noopener noreferrer">
                 <div className="project">
                     <div className="project_info">
