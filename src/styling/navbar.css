@@ -36,7 +36,9 @@
     color: #ffffff7b;
     display: flex;
 }
-
+div, button, i, img:focus {
+    outline: none;
+  }
 .link{
     height: 80%;
     width: 90px;

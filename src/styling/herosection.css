@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
-
+div, button, i, img:focus {
+    outline: none;
+  }
 .hero_section_container{
     /* height: 70vh; */
     /* background-color: rgba(250, 235, 215, 0.029); */
