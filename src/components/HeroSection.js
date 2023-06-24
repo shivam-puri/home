@@ -16,7 +16,7 @@ const HeroSection = () => {
             <img  height="14px" src="images/waving-hand.png" alt="" />
          </div>
          <div className="main_text">
-            <h2> A passionate Front-end React Developer based in Indore, India.</h2>
+            <h2> Passionate Versatile Full-stack Freelancer</h2>
          </div>
         </div>
     </section>

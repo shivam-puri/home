@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
 
-.projects_section{
-    width: 100%;
+.experience_container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    padding-bottom: 50px;
-    box-sizing: border-box;
-    color: #9A9A9A;
+    width: 100%;
+    min-height: 100px;
+    height: fit-content;
     font-family: "Outfit", Sans-serif;
     font-size: 16px;
-    /* border: 1px solid rgba(129, 128, 128, 0.084); */
+    flex-direction: column;
     margin-bottom: 50px;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 
-.projects_section_heading{
+
+.experience_heading{
     display: flex;
     justify-content: center;
     letter-spacing: 2px;
@@ -28,34 +29,17 @@
     background: -webkit-linear-gradient( #b6b5b5, #9a9a9a9b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-bottom: 50px;
 }
 
-.projects_section_heading h2{
-    font-weight: 400;
-
-}
-
-.projects_text_head{
-    display: flex;
-    width: 50%;
-    flex-direction: column;
-    text-align: center;
-    line-height: 25px;
+.experience_heading h2{
+    /* font-size: 16px; */
     font-weight: 300;
+    letter-spacing: 3px;
 }
 
-.projects_text_head h2{
-    font-family: "Outfit", Sans-serif;
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 35px;
-    background: -webkit-linear-gradient( #b6b5b5, #9a9a9a9b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 70px;
-}
 
-.projects{
+.experiences{
     display: grid;
     width: 70%;
     min-width: 1000px;
@@ -65,9 +49,9 @@
     
 }
 
-.project{
+.experience{
     width: 100%;
-    height: 360px;
+    min-height: 360px;
     background-color: #1A1A1A;
     border: 1px solid rgba(129, 128, 128, 0.084);
     display: flex;
@@ -76,23 +60,26 @@
     cursor: pointer;
     transition: transform .2s;
     box-shadow: 1px 1px 10px #0000002b;
+    box-sizing: border-box;
+    padding-top: 20px;
 }
 
-.project:hover{
+.experience:hover{
     transform: scale(0.95);
     box-shadow: 1px 1px 10px #0000008c;
 }
 
-.project_info{
+.experience_info{
     width: 100%;
     height: fit-content;
     min-height: 100px;
     /* background-color: rgba(0, 0, 0, 0.376); */
     display: flex;
     flex-direction: column;
+    
 }
 
-.project_title{
+.experience_title{
     font-family: "Outfit", Sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -104,23 +91,29 @@
     -webkit-text-fill-color: transparent;
 }
 
-.project_tech{
+.experience_tech{
     padding: 0px 20px;
 }
 
-.project_des{
+.experience_des{
     padding: 20px;
     padding-bottom: 40px;
     font-weight: 300;
     font-size: 13px;
+    color: #9A9A9A
+}
 
+.experience_time{
+    padding: 0px 20px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.718);
+    font-size: small;
+    font-weight: 400;
 }
 
 
-
-
 @media (max-width: 1060px) {
-    .projects{
+    .experiences{
         grid-template-columns: repeat(2, 1fr);
         min-width: 10px;
         width: 100%;
@@ -128,7 +121,7 @@
 }
 
 @media (max-width: 500px) {
-    .projects{
+    .experiences{
         grid-template-columns: repeat(1, 1fr);
         min-width: 10px;
         width: 100%;
@@ -136,11 +129,11 @@
         padding: 20px;
     }
 
-    .projects_text_head{
+    .experience_heading{
         width: 100%;
     }
 
-    .projects_text_head h2{
+    .experience_heading h2{
         font-size: 26px;
         margin-bottom: 44px;
       }

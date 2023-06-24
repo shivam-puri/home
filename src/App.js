@@ -7,6 +7,7 @@ import TechStack from './components/TechStack';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
 
     <AboutMe />
     <Projects />
+    <Experience />
     <Contact />
     </div>
   );
