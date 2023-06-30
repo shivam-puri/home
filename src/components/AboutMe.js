@@ -9,16 +9,22 @@ const AboutMe = () => {
                 <div className="about_section_heading"><h2>About me</h2></div>
 
                 <div className="about_me_text">
-                <h2>A dedicated Front-end Developer
-                    based in Indore, India</h2>
+                    <h2> Expert Web Developer | Web Designer | Freelancer</h2>
 
-                    <p>As a Front-End Developer, I possess a wide range of skills in HTML, CSS, JavaScript, React and Component Libraries. My strength lies in designing and maintaining responsive websites that provide a seamless and enjoyable user experience. I specialize in creating engaging and dynamic interfaces by writing clean and optimized code. I stay updated with the latest development tools and techniques to ensure that my work is at the cutting edge of technology. Moreover, I thrive in team environments, collaborating with cross-functional teams to deliver exceptional web applications that leave a lasting impression.
-</p>
+                    <p>
+                        I'm a Web developer with a passion of delivering Top knotch Websites.
+                        By offering my expertise in web development, I help businesses to grow their online presence by having modern and up-to-date websites.
+
+                        My strength lies in designing and maintaining responsive websites that provide a seamless and enjoyable user experience.
+                        I specialize in creating engaging and dynamic interfaces by writing clean and optimized code. I stay updated with the latest development tools and techniques to ensure that my work is at the cutting edge of technology.
+
+                        My skills include : HTML | CSS | JavaScript | React JS | Express JS | MongoDB | Node JS | Git | Freelance | Web Design | Web Development
+                    </p>
+                </div>
             </div>
-            </div>
 
 
-           
+
         </section>
     )
 }
