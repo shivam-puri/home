@@ -15,41 +15,60 @@ const Projects = () => {
 
             <div className="projects" >
 
-               <a href="https://zippy-kitsune-87dd9f.netlify.app/"
-               target="_blank" rel="noopener noreferrer"
-               >
-               <div className="project">
-                    <div className="project_info">
-                        <div className="project_title">Video Calling Site</div>
-                        <div className="project_tech">
-                            <i class="fa-brands fa-react"></i> &nbsp;
-                            <i class="fa-brands fa-node"></i>
-                        </div>
-                        <div className="project_des">
-                            Designed and developed a premium looking and mobile friendly videocalling site using WebRTC.
-                        </div>
-                    </div>
-                </div>
-               </a>
 
-                <a 
-                href="https://fluffy-starlight-b4577f.netlify.app/" target="_blank" rel="noopener noreferrer"
+                <a href="https://kind-skirt-seal.cyclic.app/"
+                    target="_blank" rel="noopener noreferrer"
                 >
-                <div className="project">
-                    <div className="project_info">
-                        <div className="project_title">UrbanEstate</div>
-                        <div className="project_tech">
-                            <i class="fa-brands fa-ethereum"></i> &nbsp;
-                            <i class="fa-brands fa-react"></i>
-                        </div>
-                        <div className="project_des">
-                            Developed a cutting-edge Web 3.0 Real Estate App akin to Zillow. employed Solidity, Ethereum, Hardhat, and React to create a decentralized platform for property transactions using Metamask and seamless user experience.
+                    <div className="project">
+                        <div className="project_info">
+                            <div className="project_title">Full Stack Fashion Ecom</div>
+                            <div className="project_tech">
+                                <i class="fa-brands fa-react"></i> &nbsp;
+                                <i class="fa-brands fa-node"></i> &nbsp;
+                                <span className='icon_text' >MongoDB</span> &nbsp;
+                                <span className='icon_text' >Express</span> &nbsp;
+
+                            </div>
+                            <div className="project_des">
+                                A Full fledged Fashion Ecommerce with User and Admin Panels | Content Managment system | Login Signup Authentication | Add to cart Functionality | Payment Gateway | Categories & Filters | Responsive UI | Product Recommendations | Update Profile and so on...
+                            </div>
                         </div>
                     </div>
-                </div>
-
                 </a>
-                <a href="https://vermillion-mermaid-44c887.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a href="https://zippy-kitsune-87dd9f.netlify.app/"
+                    target="_blank" rel="noopener noreferrer"
+                >
+                    <div className="project">
+                        <div className="project_info">
+                            <div className="project_title">Video Calling Site</div>
+                            <div className="project_tech">
+                                <i class="fa-brands fa-react"></i> &nbsp;
+                                <i class="fa-brands fa-node"></i>
+                            </div>
+                            <div className="project_des">
+                                Designed and developed a premium looking and mobile friendly videocalling site using WebRTC.
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                {/* <a
+                    href="https://fluffy-starlight-b4577f.netlify.app/" target="_blank" rel="noopener noreferrer"
+                >
+                    <div className="project">
+                        <div className="project_info">
+                            <div className="project_title">UrbanEstate</div>
+                            <div className="project_tech">
+                                <i class="fa-brands fa-ethereum"></i> &nbsp;
+                                <i class="fa-brands fa-react"></i>
+                            </div>
+                            <div className="project_des">
+                                Developed a cutting-edge Web 3.0 Real Estate App akin to Zillow. employed Solidity, Ethereum, Hardhat, and React to create a decentralized platform for property transactions using Metamask and seamless user experience.
+                            </div>
+                        </div>
+                    </div>
+
+                </a> */}
+                {/* <a href="https://vermillion-mermaid-44c887.netlify.app/" target="_blank" rel="noopener noreferrer">
                     <div className="project">
                         <div className="project_info">
                             <div className="project_title">ToDo List</div>
@@ -63,8 +82,21 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                </a>
+                </a> */}
 
+                <a href="https://64f41b82d2209b61d2574ac5--stellular-dieffenbachia-f6a716.netlify.app/" target="_blank" rel="noopener noreferrer" >
+                    <div className="project"  >
+                        <div className="project_info">
+                            <div className="project_title">Crypto Tracker</div>
+                            <div className="project_tech">
+                                <i class="fa-brands fa-react"></i> &nbsp;
+                            </div>
+                            <div className="project_des">
+                                A Website Implemented with APIs and React to keep you updated & Tracked with prices of your Favourite Crypto Currencies..
+                            </div>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://shivm29.github.io/_snakegame/" target="_blank" rel="noopener noreferrer" >
                     <div className="project"  >
                         <div className="project_info">
