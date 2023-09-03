@@ -4,12 +4,12 @@ import '../styling/herosection.css'
 const Download = () => {
   return (
     <section className='button_section'>
-    <a href="images/myresume.pdf" download>
-    <button className='download_button' >Download Resume
-    <img src="images/download.png" height={"20px"} alt="" />
-    </button>
-    </a>
-    </section>  
+      <a href="images/Shivam's Resume.pdf" download>
+        <button className='download_button' >Download Resume
+          <img src="images/download.png" height={"20px"} alt="" />
+        </button>
+      </a>
+    </section>
   )
 }
 
