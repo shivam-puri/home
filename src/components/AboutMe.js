@@ -2,6 +2,9 @@ import React from 'react'
 import '../styling/aboutme.css';
 
 const AboutMe = () => {
+
+    const List = ["HTML/CSS", "JavaScript", "React/Redux", "NextJS", "Firebase", "MongoDB", "NodeJS", "ExpressJS", "Git", "TypeScript", "Directus", "C/C++", "Micro-frontends", "Data Structures & Algorithm"]
+
     return (
         <section className='aboutme' id='aboutmescroll' >
 
@@ -17,9 +20,20 @@ const AboutMe = () => {
 
                         My strength lies in designing and maintaining responsive websites that provide a seamless and enjoyable user experience.
                         I specialize in creating engaging and dynamic interfaces by writing clean and optimized code. I stay updated with the latest development tools and techniques to ensure that my work is at the cutting edge of technology.
-
-                        My skills include : HTML | CSS | JavaScript | React JS | Express JS | MongoDB | Node JS | Git | Freelance | Web Design | Web Development
                     </p>
+
+                    <div className='tech-stack' >
+                        <p>My Skills Include </p>
+                        <div className='tech-stack-div' >
+                            {List.map((L) => {
+                                return (
+                                    <a className='skill' > {L} </a>
+                                )
+                            })}
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
 

@@ -67,6 +67,39 @@ div, button, i, img:focus {
     -webkit-text-fill-color: transparent;
 }
 
+.tech-stack{
+  display: flex;
+  flex-direction:column;
+  width: 100%;
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: space-around;
+  height: fit-content;
+  
+}
+
+
+.tech-stack-div{
+  border-top: 1px solid rgba(255, 255, 255, 0.084);
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill{
+  cursor: pointer;
+  background-color: #1a1a1a; 
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  padding: 7px;
+  border-radius: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.084);
+  font-size: small;
+  margin: 5px;
+
+}
+
 @media (max-width: 800px) {
   .about_me_text{
     width: 100%;
