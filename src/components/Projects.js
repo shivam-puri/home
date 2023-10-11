@@ -16,7 +16,7 @@ const Projects = () => {
             <div className="projects" >
 
 
-                <a href="https://kind-skirt-seal.cyclic.app/"
+                <a href="https://odd-gold-basket-clam-cap.cyclic.app//"
                     target="_blank" rel="noopener noreferrer"
                 >
                     <div className="project">

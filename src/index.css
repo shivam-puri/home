@@ -21,3 +21,6 @@ code {
   background: #f46ce920;
 }
 
+*{
+  -webkit-tap-highlight-color: transparent;
+}
