@@ -16,7 +16,7 @@ const HeroSection = () => {
                <img height="14px" src="images/waving-hand.png" alt="" />
             </div>
             <div className="main_text">
-               <h2> Expert Full Stack Developer</h2>
+               <h2> Full Stack Developer & Problem Solver</h2>
             </div>
          </div>
       </section>
