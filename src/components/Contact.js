@@ -8,7 +8,7 @@ const Contact = () => {
             CONTACT
         </div>
         <div className="contact_line">
-        Feel Free to Connect! Drop me a Line!👇
+        Don't be Shy, Drop me a Line! &nbsp; 👇
         </div>
 
         <div className="contact_links_container">
@@ -33,7 +33,6 @@ const Contact = () => {
             
            
         </div>
-    <div className="copyright_text">Copyright © 2023. All rights are reserved</div>
     </section>
   )
 }

@@ -17,15 +17,14 @@ const Experience = () => {
            <div className="experience">
                <div className="experience_info">
                    <div className="experience_title">
-                   Freelancer
+                   Technical Executive at ACM chapter
                    </div>
 
                    <div className="experience_time">
-                    June 2023 - Present
+                    Oct 2023 - Present
                    </div>
                    <div className="experience_des">
-                   As a passionate Full-stack developer, I am continuously sharpening my skills by immersing myself in a range of client projects. By diligently understanding and fulfilling their unique requirements, I consistently deliver exceptional value to my clients.
-                
+                   Technical Executive at Medicaps University ACM Chapter. Handle Tasks related to Development and Mentorship.
                    </div>
                </div>
            </div>
@@ -60,7 +59,7 @@ const Experience = () => {
                 <br />
                    <a href="https://www.linkedin.com/in/shivam-puri-goswami-041081200/" 
                    target="_blank" rel="noopener noreferrer"
-                   >`Learn more on Linkedin.`</a>
+                   >`Know more on Linkedin.`</a>
                    </div>
                </div>
            </div>
