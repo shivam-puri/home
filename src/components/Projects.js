@@ -15,7 +15,6 @@ const Projects = () => {
 
             <div className="projects" >
 
-
                 <a
                     target="_blank" rel="noopener noreferrer"
                 >
@@ -30,7 +29,7 @@ const Projects = () => {
 
                             </div>
                             <div className="project_des">
-                            Developed a comprehensive university website managing mentor-mentee interactions, document handling, and pair assignments. Soon to go live on the university's IP address.
+                                Developed a comprehensive university website managing mentor-mentee interactions, document handling, and pair assignments. Soon to go live on the university's IP address.
                             </div>
                         </div>
                     </div>
@@ -49,7 +48,7 @@ const Projects = () => {
 
                             </div>
                             <div className="project_des">
-                            Fashion e-commerce with user/admin panels, CMS, login/signup, cart, payment, categories, responsive UI, recommendations, profile updates, and more.
+                                Fashion e-commerce with user/admin panels, CMS, login/signup, cart, payment, categories, responsive UI, recommendations, profile updates, and more.
                             </div>
                         </div>
                     </div>
@@ -70,22 +69,22 @@ const Projects = () => {
                         </div>
                     </div>
                 </a>
-    
 
-                <a href="https://64f41b82d2209b61d2574ac5--stellular-dieffenbachia-f6a716.netlify.app/" target="_blank" rel="noopener noreferrer" >
+
+                <a href="https://task-tracker-beta-nine.vercel.app/" target="_blank" rel="noopener noreferrer" >
                     <div className="project"  >
                         <div className="project_info">
-                            <div className="project_title">Crypto Tracker</div>
+                            <div className="project_title">Task Tracker</div>
                             <div className="project_tech">
                                 <i class="fa-brands fa-react"></i> &nbsp;
                             </div>
                             <div className="project_des">
-                                A Website Implemented with APIs and React to keep you updated & Tracked with prices of your Favourite Crypto Currencies..
+                                A React website to track all your projects. One of my Favourite UI work with fully responsive interface with light & dark modes. Implemented local storage for storing projects. Filters and sorting on ..
                             </div>
                         </div>
                     </div>
                 </a>
-               
+
 
 
             </div>

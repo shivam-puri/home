@@ -15,15 +15,19 @@ const AboutMe = () => {
                     <h2> Full-Stack Developer | Problem Solver</h2>
 
                     <p>
-                        I am a full-stack developer whose journey began with learning languages and creating projects from YouTube videos.
-                        <hr className='hr-line' ></hr>
-                        I secured an internship in a startup, gaining exposure  to real-world production and learning valuable skills such as working with documentation, collaborating in teams, utilizing version control, and participating in effective collaboration.
-                        <hr className='hr-line' ></hr>
-                        Recently, I developed a website for my university, designed to benefit over 720 students in the IT branch. There are plans to expand its scope to encompass all programs and branches of the university.
-                        <hr className='hr-line' ></hr>
-                        My experiences in both personal and real-world production-level projects have equipped me to write clean, optimized, and efficient code. I possess strong computer science fundamentals and have a passion for teaching. I conducted cohorts for Data Structures and Algorithms (DSA) and C++ programming, teaching over 100 students across different batches. This not only reinforced my foundational knowledge but also enhanced my communication skills, enabling me to convey ideas in a clear and straightforward manner.
-                        <hr className='hr-line' ></hr>
-                        As a problem solver, I actively engage in solving problems on platforms like Leetcode.
+                        Hi! I'm Shivam, a Bachelor of Technology student in Information Technology at Medicaps University.
+                        <br />
+                        <br />
+                        My passion for development has led me to work on various projects, including three full-fledged MERN stack applications. I also honed my skills through a React development internship, focusing primarily on frontend development with some backend involvement for a doctor consultation website.
+                        <br />
+                        <br />
+                        One of my proudest achievements is a full-stack project about to go live on our college's IP address, serving over 720 students within the IT branch. This project was initiated by our esteemed IT department HOD, and I'm expecting to receive a university dean's certificate in recognition of my work.
+                        <br />
+                        <br />
+                        Beyond development, I enjoy sharing knowledge and simplifying complex concepts. During my second year, I mentored over 100 students in multiple batches, teaching Data Structures and Algorithms (DSA) and C++.
+                        <br />
+                        <br />
+                        Finally, I find creating content valuable. My YouTube channel documents my hackathon experiences and offers coding tutorials to help others learn.
 
                     </p>
 

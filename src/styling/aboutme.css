@@ -56,7 +56,7 @@ div, button, i, img:focus {
 
 .about_me_text p{
     font-size: 16px;
-    /* text-align: left; */
+    text-align: left;
 }
 .about_me_text h2{
     font-family: "Outfit", Sans-serif;
