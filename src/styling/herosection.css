@@ -34,7 +34,7 @@ div, button, i, img:focus {
 
 .circular--square { 
     border-radius: 50%;
-    height: 130px;
+    height: 190px;
     margin-bottom: 10px;
 }
 
@@ -148,6 +148,10 @@ div, button, i, img:focus {
 }
 
 @media (max-width: 500px) {
+
+    .circular--square {
+        height: 100px;
+    } 
     .main_text h2{
         font-size: 25px;
     }

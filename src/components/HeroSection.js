@@ -7,7 +7,7 @@ const HeroSection = () => {
       <section className='hero_section_container' id='homescroll' >
          <div className="hero_section">
             <div className="profile_image">
-               <img src="images/me.jpeg" className='circular--square' alt="" />
+               <img src="images/DP.jpeg" className='circular--square' alt="" />
             </div>
             <div className="intro_text">
                <p>Hi, I'm Shivam</p>
@@ -16,7 +16,7 @@ const HeroSection = () => {
                <img height="14px" src="images/waving-hand.png" alt="" />
             </div>
             <div className="main_text">
-               <h2> Full Stack Developer & Problem Solver</h2>
+               <h2>Full Stack Developer & Problem Solver</h2>
             </div>
          </div>
       </section>
