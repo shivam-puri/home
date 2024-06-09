@@ -53,23 +53,23 @@ function App() {
 
       <div
         ref={sidebarRef}
-        className={`flex fixed flex-col h-screen z-20 w-2/3 top-0 right-0 pt-10 px-2 bg-background border-l shadow-2xl border-border box-border sidebar ${opendrawer ? 'open' : 'hidden'}`}
+        className={`flex fixed flex-col h-screen z-20 w-2/3 top-0 right-0 pt-10 px-2 bg-background border-l shadow-2xl border-border box-border sidebar ${opendrawer ? 'open' : 'hidden'} text-xs`}
       >
         <div>
           <ScrollIntoView selector="#home">
-            <button className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Home</button>
+            <button onClick={() => setOpendrawer(false)} className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Home</button>
           </ScrollIntoView>
           <ScrollIntoView selector="#projects">
-            <button className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Projects</button>
+            <button onClick={() => setOpendrawer(false)} className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Projects</button>
           </ScrollIntoView>
           <ScrollIntoView selector="#exp">
-            <button className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Experience</button>
+            <button onClick={() => setOpendrawer(false)} className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Experience</button>
           </ScrollIntoView>
           <ScrollIntoView selector="#cohorts">
-            <button className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Cohorts</button>
+            <button onClick={() => setOpendrawer(false)} className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">Cohorts</button>
           </ScrollIntoView>
           <ScrollIntoView selector="#yt">
-            <button className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">YouTube</button>
+            <button onClick={() => setOpendrawer(false)} className="my-5 ml-2 flex items-center opacity-90 hover:text-accent">YouTube</button>
           </ScrollIntoView>
         </div>
       </div>
