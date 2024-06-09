@@ -24,7 +24,15 @@ const YouTube = () => {
                 allowFullScreen
                 title="Embedded YouTube"
             />
-            <iframe width="100%" className="mb-2" src="https://www.youtube.com/embed/600IBRpUbes?si=w0XGOkHOyI0DDcqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe
+                width="100%"
+                className="youtube-video"
+                src={`https://www.youtube.com/embed/qNIW75-AuII?si=xQ_azhCMuJ_QqlJM`}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded YouTube"
+            />
+
 
             <span className="mt-10 mb-7 text-sm" >Sometimes, I also enjoy recording videos while doing my favorite Work.
             </span>
