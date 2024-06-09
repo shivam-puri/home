@@ -1,26 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #161616;
-  background-image: url('../public/images/background.png');
-  background-attachment: fixed;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+:root{
+  --background : 20,20,20;
+  --foreground: 190,190,190;
+  --fade-foreground: 150, 150, 150;
+  --border : 40, 40, 40;
+  --accent : 0, 153, 77;
+  --hover-bg : 30, 30, 30;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ section, iframe, .fade-in {
+  animation: CSSscrollReveal ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 25%;
 }
 
-::selection{
-  background: #f46ce920;
+.video-responsive {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
 
-*{
-  -webkit-tap-highlight-color: transparent;
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+@keyframes CSSscrollReveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
