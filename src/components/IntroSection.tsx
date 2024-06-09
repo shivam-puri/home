@@ -29,7 +29,7 @@ const IntroSection = () => {
     return (
         <section id="home" className="max-[750px]:mt-5 flex w-full flex-col mb-12 mt-16" >
             <div className="flex items-center mb-6" >
-                <img src="/DP.jpeg" className="h-20 rounded-full mr-4" alt="" />
+                <img src="/DP.jpg" className="h-20 rounded-full mr-4" alt="" />
                 <div className="flex flex-col" >
                     <h1 className="text-lg" >Shivam Puri</h1>
                     <p className="text-sm opacity-70" >Full Stack Developer & Problem Solver </p>

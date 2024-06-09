@@ -10,7 +10,7 @@
   --foreground: 190,190,190;
   --fade-foreground: 150, 150, 150;
   --border : 40, 40, 40;
-  --accent : 0, 153, 77;
+  --accent : 41, 164, 171;
   --hover-bg : 30, 30, 30;
 }
 
@@ -36,6 +36,14 @@
   border: 0;
 }
 
+.sidebar {
+  transition: right 0.3s ease-in-out; 
+  right: -100%;
+}
+
+.sidebar.open {
+  right: 0; /* Move sidebar into viewport when open */
+}
 
 @keyframes CSSscrollReveal {
   from {

@@ -1,7 +1,7 @@
 
 const Cohort = () => {
     return (
-        <section className="flex flex-col  w-full my-5" >
+        <section id="cohorts" className="flex flex-col  w-full my-5" >
             <h1 className="text-xl font-semibold mb-5" >DSA <span className=" text-accent underline underline-offset-2 " >Cohort</span></h1>
 
             <div className="py-5 w-full " >
