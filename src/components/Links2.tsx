@@ -6,7 +6,7 @@ const Links2 = () => {
         <section className='w-full  flex-col max-[750px]:flex hidden mt-10' >
             <h1 className="text-xl font-semibold" >Links to other <span className=" text-accent underline underline-offset-2 " >Platforms</span></h1>
             <div className='flex w-full justify-around text-xl mt-5' >
-                <a href="https://github.com/shivm29" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/shivam-puri" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="my-4 opacity-70 hover:opacity-100 cursor-pointer" />
                 </a>
                 <a href="https://www.linkedin.com/in/shivam-puri-goswami/" target="_blank" rel="noopener noreferrer">
