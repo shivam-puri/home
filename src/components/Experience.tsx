@@ -8,7 +8,20 @@ const Experience = () => {
                     <h1 className="flex w-full tracking-wide mb-2">
                         <span>Software Developer Intern at Walkover</span>
                     </h1>
-                    <span className="text-xs text-fade-foreground" >June 2024 - Present</span>
+                    <span className="text-xs text-fade-foreground" >June 2024 - August 2024</span>
+
+                    <ul className="text-xs mt-5 list-disc pl-5">
+                        <li className="leading-5">Refactored legacy class-based components into efficient functional components for techdoc.walkover.in, improving code maintainability and performance.
+                        </li>
+                        <li className="leading-5">Optimized rendering to reduce unnecessary re-renders and enhance application performance by following React best practices.
+                        </li>
+                        <li className="leading-5">Resolved bugs, enhanced existing features, and implemented new ones to improve overall functionality and user experience.
+
+                        </li>
+                        <li className="leading-5">Developed an npm package for nested popovers, which was successfully integrated across multiple sections of techdoc.walkover.in.
+                        </li>
+                    </ul>
+
                 </div>
 
 

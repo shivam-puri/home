@@ -32,7 +32,28 @@ const Projects = () => {
                     </ul>
                 </div>
 
-                {/* https://github.com/shivm29/ecommerce/ */}
+                <a href="https://www.npmjs.com/package/nested-modals" target="_blank" rel="noopener noreferrer" className="mb-4 rounded-md flex flex-col w-full cursor-pointer p-4 hover:bg-hover-bg transition duration-150 ease-in-out fade-in">
+                    <h1 className="flex w-full justify-between tracking-wide mb-2 italic">
+                        <span>nested-modals (NPM PACKAGE)</span>
+                        <RiExternalLinkLine className="mr-2" />
+                    </h1>
+                    <div className="flex w-full px-2 text-sm">
+                        <FaReact className="mr-2" />
+                    </div>
+                    <ul className="text-xs mt-5 list-disc pl-5">
+                        <li className="leading-5">Developed an npm package for popovers in techdoc.walkover.in with features such as:
+                        </li>
+                        <li className="leading-5">Developed an npm package for popovers in techdoc.walkover.in with features such as:
+                        </li>
+                        <li className="leading-5">A stack system ensuring only the latest popover or modal is interactable, with a click on the screen dismissing the topmost modal first.
+                        </li>
+                        <li className="leading-5">Smooth animations for seamless opening and closing of modals.
+                        </li>
+                        <li className="leading-5">Minimal implementation: simply wrap the application with ModalContext and use the useModal hook where needed.
+                        </li>
+                    </ul>
+                </a>
+
                 <a href="https://github.com/shivm29/ecommerce/" target="_blank" rel="noopener noreferrer" className="mb-4 rounded-md flex flex-col w-full cursor-pointer p-4 hover:bg-hover-bg transition duration-150 ease-in-out fade-in">
                     <h1 className="flex w-full justify-between tracking-wide mb-2 italic">
                         <span>Vesh Fashion</span>

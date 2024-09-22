@@ -47,7 +47,7 @@ const YouTube = () => {
                 title="Embedded YouTube"></iframe>
 
             <div className="mt-16 h-20 "  >
-                <p className="text-sm" >Looks like you reached the end. <a className="text-accent underline underline-offset-2 font-semibold" href="public/Shivam_Puri_Goswami_Resume.pdf" download>Click Here</a> if you want to watch/download my resume :)</p>
+                <p className="text-sm" >Looks like you reached the end. <a className="text-accent underline underline-offset-2 font-semibold" href="/SHIVAM_PURI_RESUME.pdf" download>Click Here</a> if you want to watch/download my resume :)</p>
             </div>
 
         </section>
