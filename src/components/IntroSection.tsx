@@ -66,7 +66,7 @@ const IntroSection = () => {
                 Additionally, I find creating content valuable, which led me to start a YouTube channel where I share coding tutorials and hackathon experiences.
 
                 <br />
-                As for my hobbies, they tend to change frequently, but some constants are writing, watching anime, and deeply understanding my favorite characters.</p>
+                As for my hobbies, they may come and go, but a few essentials stick around: journaling, anime binges, and recording self-videos</p>
         </section>
     )
 }
